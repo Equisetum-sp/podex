@@ -4,6 +4,367 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ViewActivity">
+    tools:context=".ViewActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/viewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Podex"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/viewSubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Gen"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <Button
+        android:id="@+id/viewFilter"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:backgroundTint="@color/white"
+        android:text="Filter"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card001"
+        android:layout_width="144dp"
+        android:layout_height="107dp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="221dp">
+
+        <ImageView
+            android:id="@+id/viewBulbasaur"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_view_001" />
+
+        <TextView
+            android:id="@+id/name001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"
+            android:text="Bulbasaur"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="43dp"
+            android:text="#001"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type001"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="75dp"
+            android:background="@color/grass"
+            android:text="Grass"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card002"
+        android:layout_width="144dp"
+        android:layout_height="107dp"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="221dp">
+
+        <ImageView
+            android:id="@+id/viewIvysaur"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_view_002" />
+
+        <TextView
+            android:id="@+id/name002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"
+            android:text="Ivysaur"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="43dp"
+            android:text="#002"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type002"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="75dp"
+            android:background="@color/grass"
+            android:text="Grass"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card003"
+        android:layout_width="144dp"
+        android:layout_height="107dp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="353dp">
+
+        <ImageView
+            android:id="@+id/viewVenusaur"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_view_003" />
+
+        <TextView
+            android:id="@+id/name003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"
+            android:text="Venusaur"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="43dp"
+            android:text="#003"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type003"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="75dp"
+            android:background="@color/grass"
+            android:text="Grass"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card004"
+        android:layout_width="144dp"
+        android:layout_height="107dp"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="353dp">
+
+        <ImageView
+            android:id="@+id/viewCharmander"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_view_004" />
+
+        <TextView
+            android:id="@+id/name004"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"
+            android:text="Charmander"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number004"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="43dp"
+            android:text="#004"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type004"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="75dp"
+            android:background="@color/fire"
+            android:text="Fire"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card005"
+        android:layout_width="144dp"
+        android:layout_height="107dp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="486dp">
+
+        <ImageView
+            android:id="@+id/viewCharmeleon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_view_005" />
+
+        <TextView
+            android:id="@+id/name005"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"
+            android:text="Charmeleon"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number005"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="43dp"
+            android:text="#005"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type005"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="75dp"
+            android:background="@color/fire"
+            android:text="Fire"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card006"
+        android:layout_width="144dp"
+        android:layout_height="107dp"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="486dp">
+
+        <ImageView
+            android:id="@+id/viewCharizard"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ic_view_006" />
+
+        <TextView
+            android:id="@+id/name006"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"
+            android:text="Charizard"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number006"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="43dp"
+            android:text="#006"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type006"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="75dp"
+            android:background="@color/fire"
+            android:text="Fire"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+    </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavView"
+        android:layout_width="416dp"
+        android:layout_height="70dp"
+        app:menu="@menu/bottomnav"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="664dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
