@@ -142,28 +142,5 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="5dp"
         />
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="90dp">
-
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginRight="35dp"
-            android:background="@drawable/baseline_home_24"
-            />
-
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="47dp"
-            android:background="@drawable/baseline_task_24"
-            />
-
-    </LinearLayout>
-
-
-
-
+    
 </LinearLayout>
