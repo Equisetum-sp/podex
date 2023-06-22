@@ -4,4 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="grass">#9BCC50</color>fd7d24
     <color name="fire">#FD7D24</color>
+    <color name="yellow">#F4D77C</color>
+    <color name="darkYellow">#D6AF37</color>
 </resources>
