@@ -348,23 +348,4 @@
             android:textColor="@color/white"
             android:textSize="6sp" />
     </androidx.cardview.widget.CardView>
-
-    <FrameLayout
-        android:id="@+id/frameLayout"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/bottomNavView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-    </FrameLayout>
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavView"
-        android:layout_width="416dp"
-        android:layout_height="70dp"
-        app:menu="@menu/bottomnav"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="664dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
