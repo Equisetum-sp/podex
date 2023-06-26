@@ -1,6 +1,11 @@
 package com.example.mobile_final;
 
-public class Stat {
+import android.os.Parcel;
+import android.os.Parcelable;
+
+import androidx.annotation.NonNull;
+
+public class Stat implements Parcelable {
     int hp, atk, def, spc, spe;
 
     public Stat(int hp, int atk, int def, int spc, int spe) {
@@ -10,6 +15,26 @@ public class Stat {
         this.spc = spc;
         this.spe = spe;
     }
+
+    protected Stat(Parcel in) {
+        hp = in.readInt();
+        atk = in.readInt();
+        def = in.readInt();
+        spc = in.readInt();
+        spe = in.readInt();
+    }
+
+    public static final Creator<Stat> CREATOR = new Creator<Stat>() {
+        @Override
+        public Stat createFromParcel(Parcel in) {
+            return new Stat(in);
+        }
+
+        @Override
+        public Stat[] newArray(int size) {
+            return new Stat[size];
+        }
+    };
 
     public int getHp() {
         return hp;
@@ -49,5 +74,19 @@ public class Stat {
 
     public void setSpe(int spe) {
         this.spe = spe;
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(@NonNull Parcel dest, int flags) {
+        dest.writeInt(hp);
+        dest.writeInt(atk);
+        dest.writeInt(def);
+        dest.writeInt(spc);
+        dest.writeInt(spe);
     }
 }
