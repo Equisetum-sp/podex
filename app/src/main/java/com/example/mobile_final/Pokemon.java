@@ -1,11 +1,16 @@
 package com.example.mobile_final;
 
-import android.os.Build;
+import android.content.Context;
+import android.content.res.AssetFileDescriptor;
+import android.graphics.drawable.Drawable;
+import android.media.MediaPlayer;
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
+
+import java.io.IOException;
+import java.io.InputStream;
 
 public class Pokemon implements Parcelable {
     int id;
@@ -24,6 +29,7 @@ public class Pokemon implements Parcelable {
         this.types[1] = type2;
     }
 
+    //region Parcelable methods
     protected Pokemon(Parcel in) {
         id = in.readInt();
         name = in.readString();
@@ -31,6 +37,21 @@ public class Pokemon implements Parcelable {
         weight = in.readDouble();
         stat = (Stat) in.readParcelable(Stat.class.getClassLoader());
         types = in.createTypedArray(Type.CREATOR);
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(@NonNull Parcel dest, int flags) {
+        dest.writeInt(id);
+        dest.writeString(name);
+        dest.writeDouble(height);
+        dest.writeDouble(weight);
+        dest.writeParcelable(stat, flags);
+        dest.writeTypedArray(types, flags);
     }
 
     public static final Creator<Pokemon> CREATOR = new Creator<Pokemon>() {
@@ -44,6 +65,7 @@ public class Pokemon implements Parcelable {
             return new Pokemon[size];
         }
     };
+    //endregion
 
     public int getId() {
         return id;
@@ -69,26 +91,39 @@ public class Pokemon implements Parcelable {
         return types;
     }
 
-    public void getSprite(){
+    public Drawable getSprite(Context context){
+        String readyFormattedName = "Sprites/" + String.format("%03d", this.id) + ".png";
 
+        try {
+            InputStream inputStream = context.getAssets().open(readyFormattedName);
+            Drawable spriteDrawable = Drawable.createFromStream(inputStream, null);
+            return spriteDrawable;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
-    public void playSound(){
+    public MediaPlayer getSoundPlayer(Context context){
+        String readyFormattedName = "Cries/" +  Integer.toString(this.id) + ".mp3";
 
+        MediaPlayer mediaPlayer;
+        try {
+            // Open the audio file from the assets folder
+            AssetFileDescriptor assetFileDescriptor = context.getAssets().openFd(readyFormattedName);
+            mediaPlayer = new MediaPlayer();
+            mediaPlayer.setDataSource(
+                    assetFileDescriptor.getFileDescriptor(),
+                    assetFileDescriptor.getStartOffset(),
+                    assetFileDescriptor.getLength()
+            );
+            mediaPlayer.prepare();
+            return mediaPlayer;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
-    @Override
-    public int describeContents() {
-        return 0;
-    }
 
-    @Override
-    public void writeToParcel(@NonNull Parcel dest, int flags) {
-        dest.writeInt(id);
-        dest.writeString(name);
-        dest.writeDouble(height);
-        dest.writeDouble(weight);
-        dest.writeParcelable(stat, flags);
-        dest.writeTypedArray(types, flags);
-    }
 }
