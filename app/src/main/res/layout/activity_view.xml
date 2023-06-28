@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ViewActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <LinearLayout
+        android:id="@+id/layoutTitle"
+        android:layout_width="148dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/viewTitle"
+            android:layout_width="148dp"
+            android:layout_height="72dp"
+            android:text="Podex"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="48sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutSubTitle"
+        android:layout_width="71dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="-8dp"
+        android:layout_marginBottom="50dp">
+
+        <TextView
+            android:id="@+id/viewSubTitle"
+            android:layout_width="71dp"
+            android:layout_height="36dp"
+            android:text="Detail"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutPokemon"
+        android:layout_width="292dp"
+        android:layout_height="183dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingTop="100dp"
+        android:background="@drawable/rounded_pokemon"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/viewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pikachu"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/viewImg"
+            android:layout_width="185dp"
+            android:layout_height="150dp"
+            android:src="@drawable/pikachu_view" />
+
+        <TextView
+            android:id="@+id/viewNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#0025"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutStats"
+        android:layout_width="292dp"
+        android:layout_height="298dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-25dp"
+        android:paddingTop="100dp"
+        android:background="@drawable/rounded_stats"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/layoutAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/viewStatsAbout"
+                android:layout_width="44dp"
+                android:layout_height="21dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="15dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:text="About" />
+
+            <LinearLayout
+                android:id="@+id/layoutTextAbout"
+                android:layout_width="256dp"
+                android:layout_height="26dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:id="@+id/viewStatsTextAbout"
+                    android:layout_width="256dp"
+                    android:layout_height="26dp"
+                    android:layout_marginStart="7dp"
+                    android:text="When it is angered, it immediately discharges the energy 
+                    stored in the pouches in its cheeks."
+                    android:textColor="@color/black"
+                    android:textStyle="normal"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layoutSpecs"
+                android:layout_width="256dp"
+                android:layout_height="74dp"
+                android:orientation="horizontal"
+                android:layout_marginStart="7dp"
+                android:background="@drawable/rounded_specs">
+
+                <TextView
+                    android:id="@+id/heightNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginStart="43dp"
+                    android:text="0.70 cm" />
+
+                <TextView
+                    android:id="@+id/weightNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="22dp"
+                    android:text="6.90 kg" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layoutVoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/viewStatsVoice"
+                    android:layout_width="44dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:text="Voice" />
+
+                <LinearLayout
+                    android:id="@+id/layoutTextVoice"
+                    android:layout_width="256dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="1dp">
+
+                    <TextView
+                        android:id="@+id/viewStatsTextVoice"
+                        android:layout_width="198dp"
+                        android:layout_height="13dp"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Click the button to hear the pokemon sound"
+                        android:textSize="10sp"
+                        android:textStyle="normal" />
+
+                    <Button
+                        android:id="@+id/viewButtonVoice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:text="Click Me"
+                        android:textColor="@color/black"
+                        android:backgroundTint="@color/darkYellow" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
