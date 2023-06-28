@@ -83,4 +83,8 @@ public class PokemonList {
 
         return (a.isEmpty()) ? null : a;
     }
+
+    public ArrayList<Pokemon> getPokemonAll(){
+        return pokemons;
+    }
 }
