@@ -54,7 +54,7 @@ public class PokemonAdapter extends RecyclerView.Adapter<PokemonAdapter.Holder>{
 
         //set sprite
 
-        holder.dexno.setText(curr.getId());
+        holder.dexno.setText(Integer.toString(curr.getId()));
         holder.name.setText(curr.getName());
 
         holder.type1.setText(curr.getTypes()[0].getName());
@@ -67,6 +67,8 @@ public class PokemonAdapter extends RecyclerView.Adapter<PokemonAdapter.Holder>{
         else{
             holder.type2.setVisibility(View.INVISIBLE);
         }
+
+        holder.layout.setOnClickListener(v -> ((MainActivity)activityContext).buttonHandlerSelectPokemon(v, curr));
 
         /*
         holder.roomContainer.setOnClickListener(v -> ((MainActivity)activityContext).buttonHandlerSelectRoom(v, position));

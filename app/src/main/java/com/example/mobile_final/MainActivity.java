@@ -1,5 +1,7 @@
 package com.example.mobile_final;
 
+import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -29,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             dismissFragment();
         }
 
-        ft.add(mainFragmentContainer.getId(), ShowResultFragment.class, bundle, ShowResultFragment.TAG_FRAGMENT);
+        ft.add(R.id.main_fragmentcontainer, ShowResultFragment.newInstance(bundle), ShowResultFragment.TAG_FRAGMENT);
         ft.commit();
     }
 
@@ -52,6 +54,19 @@ public class MainActivity extends AppCompatActivity {
         attachFragment(bundle);
     }
 
+    protected void buttonHandlerSelectPokemon(View view, Pokemon curr){
+        Intent i = new Intent(this, ViewActivity.class);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            Bundle bundle = new Bundle();
+            bundle.putParcelable(ViewActivity.TAG_POKEMON, curr);
+            i.putExtras(bundle);
+        }
+        else {
+            i.putExtra(ViewActivity.TAG_POKEMON, curr.getId());
+        }
+        startActivity(i);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -68,8 +83,8 @@ public class MainActivity extends AppCompatActivity {
 
         if (savedInstanceState == null){
             Bundle bundle = new Bundle();
-            bundle.putParcelableArrayList("Pokemon_List", dex.getPokemonAll());
-            bundle.putString("title", "Gen 1 Pokemon");
+            bundle.putString(ShowResultFragment.TAG_TITLE, "Gen 1 Pokemon");
+            bundle.putParcelableArrayList(ShowResultFragment.TAG_POKEMONLIST, dex.getPokemonAll());
 
             attachFragment(bundle);
         }
