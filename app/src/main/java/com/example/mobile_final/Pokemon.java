@@ -1,6 +1,13 @@
 package com.example.mobile_final;
 
-public class Pokemon {
+import android.os.Build;
+import android.os.Parcel;
+import android.os.Parcelable;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
+
+public class Pokemon implements Parcelable {
     int id;
     double height, weight;
     String name;
@@ -16,6 +23,27 @@ public class Pokemon {
         this.types[0] = type1;
         this.types[1] = type2;
     }
+
+    protected Pokemon(Parcel in) {
+        id = in.readInt();
+        name = in.readString();
+        height = in.readDouble();
+        weight = in.readDouble();
+        stat = (Stat) in.readParcelable(Stat.class.getClassLoader());
+        types = in.createTypedArray(Type.CREATOR);
+    }
+
+    public static final Creator<Pokemon> CREATOR = new Creator<Pokemon>() {
+        @Override
+        public Pokemon createFromParcel(Parcel in) {
+            return new Pokemon(in);
+        }
+
+        @Override
+        public Pokemon[] newArray(int size) {
+            return new Pokemon[size];
+        }
+    };
 
     public int getId() {
         return id;
@@ -47,5 +75,20 @@ public class Pokemon {
 
     public void playSound(){
 
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(@NonNull Parcel dest, int flags) {
+        dest.writeInt(id);
+        dest.writeString(name);
+        dest.writeDouble(height);
+        dest.writeDouble(weight);
+        dest.writeParcelable(stat, flags);
+        dest.writeTypedArray(types, flags);
     }
 }
