@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.graphics.BlendMode;
 import android.graphics.BlendModeColorFilter;
-import android.graphics.PorterDuff;
 import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
@@ -52,7 +51,7 @@ public class ViewActivity extends AppCompatActivity {
 
     //region view variables
     LinearLayout layoutPokemon;
-    TextView dexno, name, about, height, weight;
+    TextView dexno, name, about, height, weight, HP, atk, def, spc, spe, locRed, locBlue, locYellow;
     ImageView sprite;
     //endregion
 
@@ -65,9 +64,17 @@ public class ViewActivity extends AppCompatActivity {
 
         dexno.setText("#" + String.format("%04d", pokemon.getId()));
         name.setText(pokemon.getName());
-        //about.setText(pokemon.getAbout());
+        about.setText(pokemon.getAbout());
         height.setText(Double.toString(pokemon.getHeight()) + " m");
         weight.setText(Double.toString(pokemon.getWeight()) + " kg");
+        HP.setText(Integer.toString(pokemon.getStat().getHp()));
+        atk.setText(Integer.toString(pokemon.getStat().getAtk()));
+        def.setText(Integer.toString(pokemon.getStat().getDef()));
+        spc.setText(Integer.toString(pokemon.getStat().getSpc()));
+        spe.setText(Integer.toString(pokemon.getStat().getSpe()));
+        locRed.setText(pokemon.getLocationRed());
+        locBlue.setText(pokemon.getLocationBlue());
+        locYellow.setText(pokemon.getLocationYellow());
 
         sprite.setImageDrawable(pokemon.getSprite(this));
 
@@ -87,9 +94,17 @@ public class ViewActivity extends AppCompatActivity {
 
         dexno = (TextView) findViewById(R.id.viewDexNo);
         name = (TextView) findViewById(R.id.viewName);
-        about = (TextView) findViewById(R.id.viewStatsAbout);
+        about = (TextView) findViewById(R.id.viewStatsTextAbout);
         height = (TextView) findViewById(R.id.viewHeight);
         weight = (TextView) findViewById(R.id.viewWeight);
+        HP = (TextView) findViewById(R.id.viewStatsHPNum);
+        atk = (TextView) findViewById(R.id.viewStatsAtkNum);
+        def = (TextView) findViewById(R.id.viewStatsDefNum);
+        spc = (TextView) findViewById(R.id.viewStatsSpcNum);
+        spe = (TextView) findViewById(R.id.viewStatsSpeNum);
+        locRed = (TextView) findViewById(R.id.viewStatsRedLocation);
+        locBlue = (TextView) findViewById(R.id.viewStatsBlueLocation);
+        locYellow = (TextView) findViewById(R.id.viewStatsYellowLocation);
 
         sprite = (ImageView) findViewById(R.id.viewImg);
 

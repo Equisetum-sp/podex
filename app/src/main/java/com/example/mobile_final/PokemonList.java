@@ -48,7 +48,9 @@ public class PokemonList {
                                             Double.parseDouble(record[3]),
                                             newStat,
                                             TypeList.getType(record[9]),
-                                            (record[10].equals("-")) ? null : TypeList.getType(record[10]));
+                                            (record[10].equals("-")) ? null : TypeList.getType(record[10]),
+                                            record[11]+" "+record[12],
+                                            new String[]{record[13], record[14], record[15]});
             pokemons.add(newPokemon);
         }
         //endregion

@@ -52,7 +52,7 @@ public class PokemonAdapter extends RecyclerView.Adapter<PokemonAdapter.Holder>{
     public void onBindViewHolder(@NonNull Holder holder, int position) {
         Pokemon curr = itemList.get(position);
 
-        //set sprite
+        holder.sprite.setImageDrawable(curr.getSprite(activityContext));
 
         holder.dexno.setText(Integer.toString(curr.getId()));
         holder.name.setText(curr.getName());
