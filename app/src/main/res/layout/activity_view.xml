@@ -10,195 +10,443 @@
     android:paddingLeft="20dp"
     android:paddingRight="20dp">
 
-    <LinearLayout
-        android:id="@+id/layoutTitle"
-        android:layout_width="148dp"
-        android:layout_height="72dp"
-        android:layout_marginTop="15dp">
-
-        <TextView
-            android:id="@+id/viewTitle"
-            android:layout_width="250dp"
-            android:layout_height="72dp"
-            android:text="Podex"
-            android:textColor="@color/white"
-            android:textSize="48sp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/layoutSubTitle"
-        android:layout_width="71dp"
-        android:layout_height="36dp"
-        android:layout_marginTop="-8dp"
-        android:layout_marginBottom="50dp">
-
-        <TextView
-            android:id="@+id/viewSubTitle"
-            android:layout_width="71dp"
-            android:layout_height="36dp"
-            android:text="Detail"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:textSize="24sp"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/viewLayoutPokemon"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="183dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/kotakyellow"
-        android:padding="10dp"
-        android:paddingTop="100dp">
-
-        <TextView
-            android:id="@+id/viewName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Pikachu"
-            android:textColor="@color/black"
-            android:textSize="13sp"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:id="@+id/viewImg"
-            android:layout_width="183dp"
-            android:layout_height="150dp"
-            android:src="@drawable/pikachu_view" />
-
-        <TextView
-            android:id="@+id/viewDexNo"
-            android:layout_width="46dp"
-            android:layout_height="22dp"
-            android:text="#0025"
-            android:textColor="@color/black"
-            android:textSize="13sp"
-            android:textStyle="normal" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/layoutStats"
-        android:layout_width="match_parent"
-        android:layout_height="298dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="-25dp"
-        android:background="@drawable/rounded_stats"
-        android:padding="10dp"
-        android:paddingTop="100dp">
+        android:layout_height="match_parent">
 
         <LinearLayout
-            android:id="@+id/layoutAbout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/viewStatsAbout"
-                android:layout_width="44dp"
-                android:layout_height="21dp"
-                android:layout_marginStart="7dp"
-                android:layout_marginTop="15dp"
-                android:text="About"
-                android:textSize="14sp"
-                android:textStyle="bold" />
+            android:orientation="vertical" >
 
             <LinearLayout
-                android:id="@+id/layoutTextAbout"
-                android:layout_width="match_parent"
-                android:layout_height="26dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="15dp">
+                android:id="@+id/layoutTitle"
+                android:layout_width="148dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="15dp">
 
                 <TextView
-                    android:id="@+id/viewStatsTextAbout"
-                    android:layout_width="match_parent"
-                    android:layout_height="26dp"
-                    android:layout_marginStart="7dp"
-                    android:text="When it is angered, it immediately discharges the energy 
-                    stored in the pouches in its cheeks."
-                    android:textColor="@color/black"
-                    android:textSize="10sp"
-                    android:textStyle="normal"
-                    tools:ignore="SmallSp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/layoutSpecs"
-                android:layout_width="match_parent"
-                android:layout_height="74dp"
-                android:layout_marginStart="7dp"
-                android:background="@drawable/kotak"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/viewHeight"
-                    android:layout_width="125dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="43dp"
-                    android:layout_marginTop="22dp"
-                    android:text="0.70 cm"
-                    android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/viewWeight"
-                    android:layout_width="134dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="30dp"
-                    android:layout_marginTop="22dp"
-                    android:text="6.90 kg"
-                    android:textColor="@color/black"
-                    android:textSize="20sp"
+                    android:id="@+id/viewTitle"
+                    android:layout_width="250dp"
+                    android:layout_height="72dp"
+                    android:text="Podex"
+                    android:textColor="@color/white"
+                    android:textSize="48sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/layoutVoice"
+                android:id="@+id/layoutSubTitle"
+                android:layout_width="71dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="-8dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/viewSubTitle"
+                    android:layout_width="71dp"
+                    android:layout_height="36dp"
+                    android:text="Detail"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/viewLayoutPokemon"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:background="@drawable/kotakyellow"
+                android:padding="10dp"
+                android:paddingTop="100dp">
+
+                <TextView
+                    android:id="@+id/viewName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pikachu"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/viewImg"
+                    android:layout_width="183dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/pikachu_view" />
+
+                <TextView
+                    android:id="@+id/viewDexNo"
+                    android:layout_width="46dp"
+                    android:layout_height="22dp"
+                    android:text="#0025"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutStats"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/viewStatsVoice"
-                    android:layout_width="44dp"
-                    android:layout_height="21dp"
-                    android:layout_marginStart="7dp"
-                    android:layout_marginTop="15dp"
-                    android:text="Voice"
-                    android:textSize="14sp"
-                    android:textStyle="bold" />
+                android:layout_gravity="center"
+                android:layout_marginTop="-25dp"
+                android:background="@drawable/rounded_stats"
+                android:padding="10dp"
+                android:paddingTop="100dp">
 
                 <LinearLayout
-                    android:id="@+id/layoutTextVoice"
+                    android:id="@+id/layoutAbout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="1dp"
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/viewStatsTextVoice"
-                        android:layout_width="198dp"
-                        android:layout_height="13dp"
+                        android:id="@+id/viewStatsAbout"
+                        android:layout_width="44dp"
+                        android:layout_height="21dp"
                         android:layout_marginStart="7dp"
-                        android:layout_marginBottom="10dp"
-                        android:text="Click the button to hear the pokemon sound"
-                        android:textSize="10sp"
-                        android:textStyle="normal" />
+                        android:layout_marginTop="15dp"
+                        android:text="About"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
 
-                    <Button
-                        android:id="@+id/viewButtonVoice"
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:id="@+id/layoutTextAbout"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="15dp">
+
+                        <TextView
+                            android:id="@+id/viewStatsTextAbout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="7dp"
+                            android:text="When it is angered, it immediately discharges the energy
+                            stored in the pouches in its cheeks."
+                            android:textColor="@color/black"
+                            android:textSize="10sp"
+                            android:textStyle="normal"
+                            tools:ignore="SmallSp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layoutSpecs"
+                        android:layout_width="match_parent"
+                        android:layout_height="54dp"
                         android:layout_marginStart="7dp"
-                        android:backgroundTint="@color/red"
-                        android:text="Click Me"
-                        android:textColor="@color/black" />
+                        android:background="@drawable/kotak"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/viewHeight"
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="43dp"
+                            android:layout_marginTop="15dp"
+                            android:text="0.70 cm"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/viewWeight"
+                            android:layout_width="134dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginTop="15dp"
+                            android:text="6.90 kg"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layoutVoice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/viewStatsVoice"
+                            android:layout_width="44dp"
+                            android:layout_height="21dp"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginTop="15dp"
+                            android:text="Voice"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:id="@+id/layoutTextVoice"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="1dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/viewStatsTextVoice"
+                                android:layout_width="198dp"
+                                android:layout_height="13dp"
+                                android:layout_marginStart="7dp"
+                                android:layout_marginBottom="10dp"
+                                android:text="Click the button to hear the pokemon sound"
+                                android:textSize="10sp"
+                                android:textStyle="normal" />
+
+                            <Button
+                                android:id="@+id/viewButtonVoice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="48dp"
+                                android:layout_marginStart="7dp"
+                                android:backgroundTint="@color/red"
+                                android:text="Click Me"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/viewStatsStatistic"
+                                android:layout_width="match_parent"
+                                android:layout_height="21dp"
+                                android:layout_marginStart="7dp"
+                                android:layout_marginTop="7dp"
+                                android:text="Statistic"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="132dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="7dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/viewStatsHP"
+                                    android:layout_width="0dp"
+                                    android:layout_height="20dp"
+                                    android:layout_weight="1"
+                                    android:text="HP" />
+
+                                <TextView
+                                    android:id="@+id/viewStatsHPNum"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="100" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="132dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="7dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/viewStatsAtk"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="ATK" />
+
+                                <TextView
+                                    android:id="@+id/viewStatsAtkNum"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="100" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="132dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="7dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/viewStatsDef"
+                                    android:layout_width="0dp"
+                                    android:layout_height="20dp"
+                                    android:layout_weight="1"
+                                    android:text="DEF" />
+
+                                <TextView
+                                    android:id="@+id/viewStatsDefNum"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="100" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="132dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="7dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/viewStatsSpc"
+                                    android:layout_width="0dp"
+                                    android:layout_height="20dp"
+                                    android:layout_weight="1"
+                                    android:text="SPC" />
+
+                                <TextView
+                                    android:id="@+id/viewStatsSpcNum"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="100" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="132dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="7dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/viewStatsSpe"
+                                    android:layout_width="0dp"
+                                    android:layout_height="20dp"
+                                    android:layout_weight="1"
+                                    android:text="SPE" />
+
+                                <TextView
+                                    android:id="@+id/viewStatsSpeNum"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="100" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/viewStatsLocation"
+                                android:layout_width="match_parent"
+                                android:layout_height="21dp"
+                                android:layout_marginStart="7dp"
+                                android:layout_marginTop="7dp"
+                                android:text="Where to find"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="7dp"
+                                android:layout_marginTop="4dp"
+                                android:background="#C80000"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/viewStatsRed"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingStart="4dp"
+                                    android:text="Red"
+                                    android:textColor="#FAFAFA"
+                                    android:textColorHint="#ECECEC"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/viewStatsRedLocation"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingStart="4dp"
+                                    android:text="TextView"
+                                    android:textColor="#FAFAFA"
+                                    android:textColorHint="#ECECEC" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="7dp"
+                                android:layout_marginTop="4dp"
+                                android:background="#3F51B5"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/viewStatsBlue"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingStart="4dp"
+                                    android:text="Blue"
+                                    android:textColor="#FAFAFA"
+                                    android:textColorHint="#ECECEC"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/viewStatsBlueLocation"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingStart="4dp"
+                                    android:text="TextView"
+                                    android:textColor="#FAFAFA"
+                                    android:textColorHint="#ECECEC" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="7dp"
+                                android:layout_marginTop="4dp"
+                                android:background="#DFC900"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/viewStatsYellow"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingStart="4dp"
+                                    android:text="Yellow"
+                                    android:textColor="#FAFAFA"
+                                    android:textColorHint="#ECECEC"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/viewStatsYellowLocation"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingStart="4dp"
+                                    android:text="TextView"
+                                    android:textColor="#FAFAFA"
+                                    android:textColorHint="#ECECEC" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
                 </LinearLayout>
+
             </LinearLayout>
+
         </LinearLayout>
-    </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>

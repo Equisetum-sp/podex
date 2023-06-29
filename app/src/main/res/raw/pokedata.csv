@@ -1,152 +1,155 @@
-ID,Pokemon,Height (m),Weight (kg),HP,ATK,DEF,SPE,SPC,TYPE,TYPE2
-1,Bulbasaur,0.7,6.9,45,49,49,45,65,Grass,Poison
-2,Ivysaur,1,13,60,62,63,60,80,Grass,Poison
-3,Venusaur,2,100,80,82,83,80,100,Grass,Poison
-4,Charmander,0.6,8.5,39,52,43,65,50,Fire,-
-5,Charmeleon,1.1,19,58,64,58,80,65,Fire,-
-6,Charizard,1.7,90.5,78,84,78,100,85,Fire,Flying
-7,Squirtle,0.5,9,44,48,65,43,50,Water,-
-8,Wartortle,1,22.5,59,63,80,58,65,Water,-
-9,Blastoise,1.6,85.5,79,83,100,78,85,Water,-
-10,Caterpie,0.3,2.9,45,30,35,45,20,Bug,-
-11,Metapod,0.7,9.9,50,20,55,30,25,Bug,-
-12,Butterfree,1.1,32,60,45,50,70,80,Bug,Flying
-13,Weedle,0.3,3.2,40,35,30,50,20,Bug,Poison
-14,Kakuna,0.6,10,45,25,50,35,25,Bug,Poison
-15,Beedrill,1,29.5,65,80,40,75,45,Bug,Poison
-16,Pidgey,0.3,1.8,40,45,40,56,35,Normal,Flying
-17,Pidgeotto,1.1,30,63,60,55,71,50,Normal,Flying
-18,Pidgeot,1.5,39.5,83,80,75,91,70,Normal,Flying
-19,Rattata,0.3,3.5,30,56,35,72,25,Normal,-
-20,Raticate,0.7,18.5,55,81,60,97,50,Normal,-
-21,Spearow,0.3,2,40,60,30,70,31,Normal,Flying
-22,Fearow,1.2,38,65,90,65,100,61,Normal,Flying
-23,Ekans,2,6.9,35,60,44,55,40,Poison,-
-24,Arbok,3.5,65,60,85,69,80,65,Poison,-
-25,Pikachu,0.4,6,35,55,30,90,50,Electric,-
-26,Raichu,0.8,30,60,90,55,100,90,Electric,-
-27,Sandshrew,0.6,12,50,75,85,40,30,Ground,-
-28,Sandslash,1,29.5,75,100,110,65,55,Ground,-
-29,Nidoran?,0.4,7,55,47,52,41,40,Poison,-
-30,Nidorina,0.8,20,70,62,67,56,55,Poison,-
-31,Nidoqueen,1.3,60,90,82,87,76,75,Poison,Ground
-32,Nidoran?,0.5,9,46,57,40,50,40,Poison,-
-33,Nidorino,0.9,19.5,61,72,57,65,55,Poison,-
-34,Nidoking,1.4,62,81,92,77,85,75,Poison,Ground
-35,Clefairy,0.6,7.5,70,45,48,35,60,Normal,-
-36,Clefable,1.3,40,95,70,73,60,85,Normal,-
-37,Vulpix,0.6,9.9,38,41,40,65,65,Fire,-
-38,Ninetales,1.1,19.9,73,76,75,100,100,Fire,-
-39,Jigglypuff,0.5,5.5,115,45,20,20,25,Normal,-
-40,Wigglytuff,1,12,140,70,45,45,50,Normal,-
-41,Zubat,0.8,7.5,40,45,35,55,40,Poison,Flying
-42,Golbat,1.6,55,75,80,70,90,75,Poison,Flying
-43,Oddish,0.5,5.4,45,50,55,30,75,Grass,Poison
-44,Gloom,0.8,8.6,60,65,70,40,85,Grass,Poison
-45,Vileplume,1.2,18.6,75,80,85,50,100,Grass,Poison
-46,Paras,0.3,5.4,35,70,55,25,55,Bug,Grass
-47,Parasect,1,29.5,60,95,80,30,80,Bug,Grass
-48,Venonat,1,30,60,55,50,45,40,Bug,Poison
-49,Venomoth,1.5,12.5,70,65,60,90,90,Bug,Poison
-50,Diglett,0.2,0.8,10,55,25,95,45,Ground,-
-51,Dugtrio,0.7,33.3,35,80,50,120,70,Ground,-
-52,Meowth,0.4,4.2,40,45,35,90,40,Normal,-
-53,Persian,1,32,65,70,60,115,65,Normal,-
-54,Psyduck,0.8,19.6,50,52,48,55,50,Water,-
-55,Golduck,1.7,76.6,80,82,78,85,80,Water,-
-56,Mankey,0.5,28,40,80,35,70,35,Fighting,-
-57,Primeape,1,32,65,105,60,95,60,Fighting,-
-58,Growlithe,0.7,19,55,70,45,60,50,Fire,-
-59,Arcanine,1.9,155,90,110,80,95,80,Fire,-
-60,Poliwag,0.6,12.4,40,50,40,90,40,Water,-
-61,Poliwhirl,1,20,65,65,65,90,50,Water,-
-62,Poliwrath,1.3,54,90,85,95,70,70,Water,-
-63,Abra,0.9,19.5,25,20,15,90,105,Psychic,-
-64,Kadabra,1.3,56.5,40,35,30,105,120,Psychic,-
-65,Alakazam,1.5,48,55,50,45,120,135,Psychic,-
-66,Machop,0.8,19.5,70,80,50,35,35,Fighting,-
-67,Machoke,1.5,70.5,80,100,70,45,50,Fighting,-
-68,Machamp,1.6,130,90,130,80,55,65,Fighting,-
-69,Bellsprout,0.7,4,50,75,35,40,70,Grass,Poison
-70,Weepinbell,1,6.4,65,90,50,55,85,Grass,Poison
-71,Victreebel,1.7,15.5,80,105,65,70,100,Grass,Poison
-72,Tentacool,0.9,45.5,40,40,35,70,100,Water,Poison
-73,Tentacruel,1.6,55,80,70,65,100,120,Water,Poison
-74,Geodude,0.4,20,40,80,100,20,30,Rock,Ground
-75,Graveler,1,105,55,95,115,35,45,Rock,Ground
-76,Golem,1.4,300,80,110,130,45,55,Rock,Ground
-77,Ponyta,1,30,50,85,55,90,65,Fire,-
-78,Rapidash,1.7,95,65,100,70,105,80,Fire,-
-79,Slowpoke,1.2,36,90,65,65,15,40,Water,Psychic
-80,Slowbro,1.6,78.5,95,75,110,30,80,Water,Psychic
-81,Magnemite,0.3,6,25,35,70,45,95,Electric,-
-82,Magneton,1,60,50,60,95,70,120,Electric,-
-83,Farfetch'd,0.8,15,52,65,55,60,58,Normal,Flying
-84,Doduo,1.4,39.2,35,85,45,75,35,Normal,Flying
-85,Dodrio,1.8,85.2,60,110,70,100,60,Normal,Flying
-86,Seel,1.1,90,65,45,55,45,70,Water,-
-87,Dewgong,1.7,120,90,70,80,70,95,Water,Ice
-88,Grimer,0.9,30,80,80,50,25,40,Poison,-
-89,Muk,1.2,30,105,105,75,50,65,Poison,-
-90,Shellder,0.3,4,30,65,100,40,45,Water,-
-91,Cloyster,1.5,132.5,50,95,180,70,85,Water,Ice
-92,Gastly,1.3,0.1,30,35,30,80,100,Ghost,Poison
-93,Haunter,1.6,0.1,45,50,45,95,115,Ghost,Poison
-94,Gengar,1.5,40.5,60,65,60,110,130,Ghost,Poison
-95,Onix,8.8,210,35,45,160,70,30,Rock,Ground
-96,Drowzee,1,32.4,60,48,45,42,90,Psychic,-
-97,Hypno,1.6,75.6,85,73,70,67,115,Psychic,-
-98,Krabby,0.4,6.5,30,105,90,50,25,Water,-
-99,Kingler,1.3,60,55,130,115,75,50,Water,-
-100,Voltorb,0.5,10.4,40,30,50,100,55,Electric,-
-101,Electrode,1.2,66.6,60,50,70,140,80,Electric,-
-102,Exeggcute,0.4,2.5,60,40,80,40,60,Grass,Psychic
-103,Exeggutor,2,120,95,95,85,55,125,Grass,Psychic
-104,Cubone,0.4,6.5,50,50,95,35,40,Ground,-
-105,Marowak,1,45,60,80,110,45,50,Ground,-
-106,Hitmonlee,1.5,49.8,50,120,53,87,35,Fighting,-
-107,Hitmonchan,1.4,50.2,50,105,79,76,35,Fighting,-
-108,Lickitung,1.2,65.5,90,55,75,30,60,Normal,-
-109,Koffing,0.6,1,40,65,95,35,60,Poison,-
-110,Weezing,1.2,9.5,65,90,120,60,85,Poison,-
-111,Rhyhorn,1,115,80,85,95,25,30,Ground,Rock
-112,Rhydon,1.9,120,105,130,120,40,45,Ground,Rock
-113,Chansey,1.1,34.6,250,5,5,50,105,Normal,-
-114,Tangela,1,35,65,55,115,60,100,Grass,-
-115,Kangaskhan,2.2,80,105,95,80,90,40,Normal,-
-116,Horsea,0.4,8,30,40,70,60,70,Water,-
-117,Seadra,1.2,25,55,65,95,85,95,Water,-
-118,Goldeen,0.6,15,45,67,60,63,50,Water,-
-119,Seaking,1.3,39,80,92,65,68,80,Water,-
-120,Staryu,0.8,34.5,30,45,55,85,70,Water,-
-121,Starmie,1.1,80,60,75,85,115,100,Water,Psychic
-122,Mr. Mime,1.3,54.5,40,45,65,90,100,Psychic,-
-123,Scyther,1.5,56,70,110,80,105,55,Bug,Flying
-124,Jynx,1.4,40.6,65,50,35,95,95,Ice,Psychic
-125,Electabuzz,1.1,30,65,83,57,105,85,Electric,-
-126,Magmar,1.3,44.5,65,95,57,93,85,Fire,-
-127,Pinsir,1.5,55,65,125,100,85,55,Bug,-
-128,Tauros,1.4,88.4,75,100,95,110,70,Normal,-
-129,Magikarp,0.9,10,20,10,55,80,20,Water,-
-130,Gyarados,6.5,235,95,125,79,81,100,Water,Flying
-131,Lapras,2.5,220,130,85,80,60,95,Water,Ice
-132,Ditto,0.3,4,48,48,48,48,48,Normal,-
-133,Eevee,0.3,6.5,55,55,50,55,65,Normal,-
-134,Vaporeon,1,29,130,65,60,65,110,Water,-
-135,Jolteon,0.8,24.5,65,65,60,130,110,Electric,-
-136,Flareon,0.9,25,65,130,60,65,110,Fire,-
-137,Porygon,0.8,36.5,65,60,70,40,75,Normal,-
-138,Omanyte,0.4,7.5,35,40,100,35,90,Rock,Water
-139,Omastar,1,35,70,60,125,55,115,Rock,Water
-140,Kabuto,0.5,11.5,30,80,90,55,45,Rock,Water
-141,Kabutops,1.3,40.5,60,115,105,80,70,Rock,Water
-142,Aerodactyl,1.8,59,80,105,65,130,60,Rock,Flying
-143,Snorlax,2.1,460,160,110,65,30,65,Normal,-
-144,Articuno,1.7,55.4,90,85,100,85,125,Ice,Flying
-145,Zapdos,1.6,52.6,90,90,85,100,125,Electric,Flying
-146,Moltres,2,60,90,100,90,90,125,Fire,Flying
-147,Dratini,1.8,3.3,41,64,45,50,50,Dragon,-
-148,Dragonair,4,16.5,61,84,65,70,70,Dragon,-
-149,Dragonite,2.2,210,91,134,95,80,100,Dragon,Flying
-150,Mewtwo,2,122,106,110,90,130,154,Psychic,-
-151,Mew,0.4,4,100,100,100,100,100,Psychic,-
+ID,Pokemon,Height (m),Weight (kg),HP,ATK,DEF,SPE,SPC,TYPE,TYPE2,Description(Red),Description(Yellow),Where To Find(Red),Where To Find(Blue),Where To Find(Yellow)
+1,Bulbasaur,0.7,6.9,45,49,49,45,65,Grass,Poison,A strange seed was planted on its back at birth. The plant sprouts and grows with this POKÈMON.,"It can go for days without eating a single morsel. In the bulb on its back, it stores energy.",Pallet Town,Pallet Town,Cerulean City
+2,Ivysaur,1,13,60,62,63,60,80,Grass,Poison,"When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",The bulb on its back grows by drawing energy. It gives off an aroma when it is ready to bloom.,Evolve Bulbasaur,Evolve Bulbasaur,Evolve Bulbasaur
+3,Venusaur,2,100,80,82,83,80,100,Grass,Poison,The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.,The flower on its back catches the sunís rays. The sunlight is then absorbed and used for energy.,Evolve Ivysaur,Evolve Ivysaur,Evolve Ivysaur
+4,Charmander,0.6,8.5,39,52,43,65,50,Fire,-,"Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",The flame at the tip of its tail makes a sound as it burns. You can only hear it in quiet places.,Pallet Town,Pallet Town,Route 24
+5,Charmeleon,1.1,19,58,64,58,80,65,Fire,-,"When it swings its burning tail, it elevates the temperature to unbearably high levels.","Tough fights could excite this POKÈMON. When excited, it may blow out bluish-white flames.",Evolve Charmander,Evolve Charmander,Evolve Charmander
+6,Charizard,1.7,90.5,78,84,78,100,85,Fire,Flying,Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.,"When expelling a blast of super hot fire, the red flame at the tip of its tail burns more intensely.",Evolve Charmeleon,Evolve Charmeleon,Evolve Charmeleon
+7,Squirtle,0.5,9,44,48,65,43,50,Water,-,"After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.","Shoots water at prey while in the water. Withdraws into its shell when in danger.
+",Pallet Town,Pallet Town,Vermilion City
+8,Wartortle,1,22.5,59,63,80,58,65,Water,-,"Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.
+","When tapped, this POKÈMON will pull in its head, but its tail will still stick out a little bit.",Evolve Squirtle,Evolve Squirtle,Evolve Squirtle
+9,Blastoise,1.6,85.5,79,83,100,78,85,Water,-,A brutal POKÈMON with pressurized water jets on its shell. They are used for high speed tackles.,"Once it takes aim at its enemy, it blasts out water with even more force than a fire hose.",Evolve Wartortle,Evolve Wartortle,Evolve Wartortle
+10,Caterpie,0.3,2.9,45,30,35,45,20,Bug,-,Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.,"If you touch the feeler on top of its head, it will release a horrible stink to protect itself.","Route 25, Viridian Forest","Route 2, Route 24, Route 25, Viridian Forest",Viridian Forest
+11,Metapod,0.7,9.9,50,20,55,30,25,Bug,-,"This POKÈMON is vulnerable to attack while its shell is soft, exposing its weak and tender body.","Hardens its shell to protect itself. However, a large impact may cause it to pop out of its shell.","Route 25, Viridian Forest","Route 2, Route 24, Route 25, Viridian Forest",Viridian Forest
+12,Butterfree,1.1,32,60,45,50,70,80,Bug,Flying,"In battle, it flaps its wings at high speed to release highly toxic dust into the air.","Its wings, covered with poisonous powders, repel water. This allows it to fly in the rain.",Evolve Caterpie / Metapod,Evolve Caterpie / Metapod,Evolve Caterpie / Metapod
+13,Weedle,0.3,3.2,40,35,30,50,20,Bug,Poison,"Often found in forests, eating leaves. It has a sharp venomous stinger on its head.",Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves.,"Route 2, 24, 25, Viridian Forest","Route 25, Viridian Forest",Trade / Migrate from other game
+14,Kakuna,0.6,10,45,25,50,35,25,Bug,Poison,"Almost incapable of moving, this POKÈMON can only harden its shell to protect itself from predators.","Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy.","Route 2, 24, 25, Viridian Forest","Route 25, Viridian Forest",Trade / Migrate from other game
+15,Beedrill,1,29.5,65,80,40,75,45,Bug,Poison,Flies at high speed and attacks using its large venomous stingers on its forelegs and tail.,It has 3 poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.,Evolve Weedle / Kakuna,Evolve Weedle / Kakuna,Trade / Migrate from other game
+16,Pidgey,0.3,1.8,40,45,40,56,35,Normal,Flying,A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.,"Very docile. If attacked, it will often kick up sand to protect itself rather than fight back.","Route 1, 2, 3, 5, 6, 7, 8, 12, 13, 14, 15, 21, 24, 25","Route 1, 2, 3, 5, 6, 7, 8, 12, 13, 14, 15, 21, 24, 25","Route 1, 2, 5, 6, 7, 8, 11, 12, 13, 21, 24, 25, Viridian Forest"
+17,Pidgeotto,1.1,30,63,60,55,71,50,Normal,Flying,"Very protective of its sprawling territorial area, this POKÈMON will fiercely peck at any intruder.",This POKÈMON is full of vitality. It constantly flies around its large territory in search of prey.,"Route 14, 15, 21","Route 14, 15, 21","Route 5, 6, 7, 8, 11, 12, 13, 14, 15, 21, 24, 25, Viridian Forest"
+18,Pidgeot,1.5,39.5,83,80,75,91,70,Normal,Flying,"When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP.","This POKÈMON flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons.",Evolve Pidgey / Pidgeotto,Evolve Pidgey / Pidgeotto,Evolve Pidgey / Pidgeotto
+19,Rattata,0.3,3.5,30,56,35,72,25,Normal,-,"Bites anything when it attacks. Small and very quick, it is a common sight in many places.","Will chew on anything with its fangs. If you see one, it is certain that 40 more live in the area.","Route 1, 2, 4, 9, 16, 21, 22","Route 1, 2, 4, 9, 16, 21, 22","Route 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 16, 18, 21, 22, PokÈmon Mansion"
+20,Raticate,0.7,18.5,55,81,60,97,50,Normal,-,It uses its whiskers to maintain its balance. It apparently slows down if they are cut off.,"Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey.","Route 16, 17, 18, 21","Route 16, 17, 18, 21","Route 9, 10, 11, 16, 18, 21, PokÈmon Mansion"
+21,Spearow,0.3,2,40,60,30,70,31,Normal,Flying,Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.,"Inept at flying high. However, it can fly around very fast to protect its territory.","Route 3, 4, 9, 10, 11, 16, 17, 18, 22, 23","Route 3, 4, 9, 10, 11, 16, 17, 18, 22, 23","Route 3, 4, 9, 16, 18, 22"
+22,Fearow,1.2,38,65,90,65,100,61,Normal,Flying,"With its huge and magnificent wings, it can keep aloft without ever having to land for rest.","A POKÈMON that dates back many years. If it senses danger, it flies high and away, instantly.","Route 17, 18, 23","Route 17, 18, 23","Route 9, 16, 17, 18, 23"
+23,Ekans,2,6.9,35,60,44,55,40,Poison,-,"Moves silently and stealthily. Eats the eggs of birds, such as PIDGEY and SPEAROW, whole.","The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.","Route 4, 8, 9, 10, 11, 23",Trade / Migrate from other game,Trade / Migrate from other game
+24,Arbok,3.5,65,60,85,69,80,65,Poison,-,It is rumored that the ferocious warning markings on its belly differ from area to area.,The frightening patterns on its belly have been studied. Six variations have been confirmed.,"Route 23, Cerulean Cave",Trade / Migrate from other game,Trade / Migrate from other game
+25,Pikachu,0.4,6,35,55,30,90,50,Electric,-,"When several of these POKÈMON gather, their electricity could build and cause lightning storms.","It keeps its tail raised to monitor its surroundings. If you yank its tail, it will try to bite you.","Power Plant, Viridian Forest","Power Plant, Viridian Forest",Pallet Town
+26,Raichu,0.8,30,60,90,55,100,90,Electric,-,Its long tail serves as a ground to protect itself from its own high voltage power.,"When electricity builds up inside its body, it becomes feisty. It also glows in the dark.",Cerulean Cave,"Cerulean Cave, Power Plant",Evolve Pikachu
+27,Sandshrew,0.6,12,50,75,85,40,30,Ground,-,Burrows deep underground in arid locations far from water. It only emerges to hunt for food.,"Its body is dry. When it gets cold at night, its hide is said to become coated with a fine dew.",Trade / Migrate from other game,"Route 4, 8, 9, 10, 11, 23","Route 3, 4, Mt. Moon"
+28,Sandslash,1,29.5,75,100,110,65,55,Ground,-,Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.,"It is skilled at slashing enemies with its claws. If broken, they start to grow back in a day.",Trade / Migrate from other game,"Route 23, Cerulean Cave",Cerulean Cave
+29,Nidoran? - Girl,0.4,7,55,47,52,41,40,Poison,-,"Although small, its venomous barbs render this POKÈMON dangerous. The female has smaller horns.","A mild-mannered POKÈMON that does not like to fight. Beware, its small horns secrete venom.","Route 5, 22, Underground Path 5-6, Safari Zone","Route 5, 22, Underground Path 5-6, Safari Zone","Route 2, 9, 10, 22, Safari Zone"
+30,Nidorina,0.8,20,70,62,67,56,55,Poison,-,The femaleís horn develops slowly. Prefers physical attacks such as clawing and biting.,"When resting deep in its burrow, its thorns always retract. This is proof that it is relaxed.","Route 11, Celadon City, Safari Zone, Evolve Nidoran (Female)","Route 11, Safari Zone, Evolve Nidoran (Female)","Route 9, 23, Safari Zone, Evolve Nidoran (Female)"
+31,Nidoqueen,1.3,60,90,82,87,76,75,Poison,Ground,Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.,Tough scales cover the sturdy body of this POKÈMON. It appears that the scales grow in cycles.,Evolve Nidorina / Nidoran (Female),Evolve Nidorina / Nidoran (Female),Evolve Nidorina / Nidoran (Female)
+32,Nidoran? - Boy,0.5,9,46,57,40,50,40,Poison,-,"Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.","Its large ears are always kept upright. If it senses danger, it will attack with a poisonous sting.","Route 22, Safari Zone","Route 22, Safari Zone","Route 2, 9, 10, 22, Safari Zone"
+33,Nidorino,0.9,19.5,61,72,57,65,55,Poison,-,An aggressive POKÈMON that is quick to attack. The horn on its head secretes a powerful venom.,"Its horns contain venom. If they are stabbed into an enemy, the impact makes the poison leak out.","Safari Zone, Evolve Nidoran (Male)","Celadon City, Safari Zone, Evolve Nidoran (Male)","Route 9, 23, Safari Zone, Evolve Nidoran (Male)"
+34,Nidoking,1.4,62,81,92,77,85,75,Poison,Ground,"It uses its powerful tail in battle to smash, constrict, then break the preyís bones.","Its steel-like hide adds to its powerful tackle. Its horns are so hard, they can pierce a diamond.",Evolve Nidorino / Nidoran (Male),Evolve Nidorino / Nidoran (Male),Evolve Nidorino / Nidoran (Male)
+35,Clefairy,0.6,7.5,70,45,48,35,60,Normal,-,Its magical and cute appeal has many admirers. It is rare and found only in certain areas.,"Adored for their cute looks and playfulness. They are thought to be rare, as they do not appear often.","Celadon City, Mt. Moon","Celadon City, Mt. Moon",Mt. Moon
+36,Clefable,1.3,40,95,70,73,60,85,Normal,-,A timid fairy POKÈMON that is rarely seen. It will run and hide the moment it senses people.,"They appear to be very protective of their own world. It is a kind of fairy, rarely seen by people.",Evolve Clefairy,Evolve Clefairy,Evolve Clefairy
+37,Vulpix,0.6,9.9,38,41,40,65,65,Fire,-,"At the time of birth, it has just one tail. The tail splits from its tip as it grows older.","Both its fur and its tails are beautiful. As it grows, the tails split and form more tails.",Trade / Migrate from other game,"Route 7, 8, PokÈmon Mansion",Celadon City
+38,Ninetales,1.1,19.9,73,76,75,100,100,Fire,-,Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse.,"According to an enduring legend, 9 noble saints were united and reincarnated as this POKÈMON.",Trade / Migrate from other game,Evolve Vuplix,Evolve Vulpix
+39,Jigglypuff,0.5,5.5,115,45,20,20,25,Normal,-,"When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",Uses its alluring eyes to enrapture its foe. It then sings a pleasing melody that lulls the foe to sleep.,Route 3,Route 3,"Route 5, 6, 7, 8"
+40,Wigglytuff,1,12,140,70,45,45,50,Normal,-,"The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.","Its body is full of elasticity. By inhaling deeply, it can continue to inflate itself without limit.",Cerulean Cave,Cerulean Cave,Celadon City
+41,Zubat,0.8,7.5,40,45,35,55,40,Poison,Flying,Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets.,Emits ultrasonic cries while it flies. They act as a sonar used to check for objects in its way.,"Mt. Moon, Rock Tunnel, Seafoam Islands, Victory Road","Mt. Moon, Rock Tunnel, Seafoam Islands, Victory Road","Mt. Moon, Rock Tunnel, Seafoam Islands, Victory Road"
+42,Golbat,1.6,55,75,80,70,90,75,Poison,Flying,"Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly.
+","It attacks in a stealthy manner, without warning. Its sharp fangs are used to bite and suck blood.","Cerulean Cave, Seafoam Islands, Victory Road","Cerulean Cave, Seafoam Islands, Victory Road","Cerulean Cave, Seafoam Islands, Victory Road"
+43,Oddish,0.5,5.4,45,50,55,30,75,Grass,Poison,"During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.","It may be mistaken for a clump of weeds. If you try to yank it out of the ground, it shrieks horribly.","Route 5, 6, 7, 12, 13, 14, 15, 24, 25",Trade/migrate from another game,"Route 12, 13, 14, 15, 24, 25"
+44,Gloom,0.8,8.6,60,65,70,40,85,Grass,Poison,The fluid that oozes from its mouth isnít drool. It is a nectar that is used to attract prey.,"Smells incredibly foul! However, around 1 out of 1,000 people enjoy sniffing its nose-bending stink.","Route 12, 13, 14, 15",Trade/migrate from another game,"Route 12, 13, 14, 15, Cerulean Cave"
+45,Vileplume,1.2,18.6,75,80,85,50,100,Grass,Poison,"The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",Flaps its broad flower petals to scatter its poisonous pollen. The flapping sound is very loud.,Evolve Oddish/Gloom,Trade/migrate from another game,Evolve Oddish/Gloom
+46,Paras,0.3,5.4,35,70,55,25,55,Bug,Grass,Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.,Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.,"Mt. Moon, Safari Zone","Mt. Moon, Safari Zone","Mt. Moon, Safari Zone"
+47,Parasect,1,29.5,60,95,80,30,80,Bug,Grass,A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.,The bug host is drained of energy by the mushrooms on its back. They appear to do all the thinking.,"Cerulean Cave, Safari Zone","Cerulean Cave, Safari Zone","Route 18, Cerulean Cave, Safari Zone"
+48,Venonat,1,30,60,55,50,45,40,Bug,Poison,Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.,"Its large eyes act as radars. In a bright place, you can see that they are clusters of many tiny eyes.","Route 12, 13, 14, 15, Safari Zone","Route 12, 13, 14, 15, Safari Zone","Route 14, 15, 24, 25"
+49,Venomoth,1.5,12.5,70,65,60,90,90,Bug,Poison,The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.,The powdery scales on its wings are hard to remove. They also contain poison that leaks out on contact.,"Cerulean Cave, Safari Zone, Victory Road","Cerulean Cave, Safari Zone, Victory Road","Route 14, 15, Cerulean Cave"
+50,Diglett,0.2,0.8,10,55,25,95,45,Ground,-,Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground.,"It prefers dark places. It spends most of its time underground, though it may pop up in caves.",Diglett's Cave,Diglett's Cave,Diglett's Cave
+51,Dugtrio,0.7,33.3,35,80,50,120,70,Ground,-,A team of DIGLETT triplets. It triggers huge earthquakes by burrowing 60 miles underground.,"A team of triplets that can burrow over 60 MPH. Due to this, some people think itís an earthquake.",Diglett's Cave,Diglett's Cave,"Route 11, Diglett's Cave"
+52,Meowth,0.4,4.2,40,45,35,90,40,Normal,-,Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.,Appears to be more active at night. It loves round and shiny things. It canít stop from picking them up.,Trade/migrate from another game,"Route 5, 6, 7, 8",Trade/migrate from another game
+53,Persian,1,32,65,70,60,115,65,Normal,-,"Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",The gem in its forehead glows on its own! It walks with all the grace and elegance of a proud queen.,Trade/migrate from another game,Evolve Meowth,Trade/migrate from another game
+54,Psyduck,0.8,19.6,50,52,48,55,50,Water,-,"While lulling its enemies with its vacant look, this wily POKÈMON will use psychokinetic powers.","Always tormented by headaches. It uses psychic powers, but it is not known if it intends to do so.","Route 24, 25, Seafoam Islands, Safari Zone","Route 24, 25, Seafoam Islands, Safari Zone",Route 6
+55,Golduck,1.7,76.6,80,82,78,85,80,Water,-,"Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",Its slim and long limbs end in broad flippers. They are used for swimming gracefully in lakes.,Seafoam Islands,Seafoam Islands,Route 6
+56,Mankey,0.5,28,40,80,35,70,35,Fighting,-,Extremely quick to anger. It could be docile one moment then thrashing away the next instant.,An agile POKÈMON that lives in trees. It angers easily and will not hesitate to attack anything.,"Route 5, 6, 7, 8",Trade/migrate from another game,"Route 3, 4, 22, 23"
+57,Primeape,1,32,65,105,60,95,60,Fighting,-,Always furious and tenacious to boot. It will not abandon chasing its quarry until it is caught.,It stops being angry only when nobody else is around. To view this moment is very difficult.,Evolve Mankey,Trade/migrate from another game,Route 23
+58,Growlithe,0.7,19,55,70,45,60,50,Fire,-,Very protective of its territory. It will bark and bite to repel intruders from its space.,"A POKÈMON with a friendly nature. However, it will bark fiercely at anything invading its territory.","Route 7, 8, PokÈmon Mansion",Trade/migrate from another game,PokÈmon Mansion
+59,Arcanine,1.9,155,90,110,80,95,80,Fire,-,A POKÈMON that has been admired since the past for its beauty. It runs agilely as if on wings.,A legendary POKÈMON in China. Many people are charmed by its grace and beauty while running.,Evolve Growlithe,Trade/migrate from another game,Evolve Growlithe
+60,Poliwag,0.6,12.4,40,50,40,90,40,Water,-,Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand.,The direction of the spiral on the belly differs by area. It is more adept at swimming than walking.,"Route 6, 10, 11, 12, 13, 17, 18, 19, 20, 21, 22, 23, 24, 25, Celadon City, Cerulean Cave, Fuchsia City, Pallet Town, Seafoam Islands, Vermilion City, Viridian City, Safari Zone","Route 6, 10, 11, 12, 13, 17, 18, 19, 20, 21, 22, 23, 24, 25, Celadon City, Cerulean Cave, Fuchsia City, Pallet Town, Seafoam Islands, Vermilion City, Viridian City, Safari Zone","Route 6, 10, 11, 12, 13, 17, 18, 19, 20, 21, 22, 23, 24, 25, Celadon City, Cerulean Cave, Fuchsia City, Pallet Town, Seafoam Islands, Vermilion City, Viridian City, Safari Zone"
+61,Poliwhirl,1,20,65,65,65,90,50,Water,-,"Capable of living in or out of water. When out of water, it sweats to keep its body slimy.","Under attack, it uses its belly spiral to put the foe to sleep. It then makes its escape.","Route 10, Celadon City","Route 10, Celadon City","Route 22, 23"
+62,Poliwrath,1.3,54,90,85,95,70,70,Water,-,An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers.,Swims powerfully using all the muscles in its body. It can even overtake champion swimmers.,Evolve Poliwag / Poliwhirl,Evolve Poliwag / Poliwhirl,Evolve Poliwag / Poliwhirl
+63,Abra,0.9,19.5,25,20,15,90,105,Psychic,-,"Using its ability to read minds, it will identify impending danger and TELEPORT to safety.","Sleeps 18 hours a day. If it senses danger, it will teleport itself to safety even as it sleeps.","Route 24, 25, Celadon City","Route 24, 25, Celadon City","Route 5, 6, 7, 8, Celadon City"
+64,Kadabra,1.3,56.5,40,35,30,105,120,Psychic,-,It emits special alpha waves from its body that induce headaches just by being close by.,"Many odd things happen if this POKÈMON is close by. For example, it makes clocks run backwards.",Cerulean Cave,Cerulean Cave,Route 8
+65,Alakazam,1.5,48,55,50,45,120,135,Psychic,-,"Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5,000.",A POKÈMON that can memorize anything. It never forgets what it learns--thatís why this POKÈMON is smart.,Evolve Abra / Kadabra,Evolve Abra / Kadabra,Evolve Abra / Kadabra
+66,Machop,0.8,19.5,70,80,50,35,35,Fighting,-,Loves to build its muscles. It trains in all styles of martial arts to become even stronger.,Very powerful in spite of its small size. Its mastery of many types of martial arts makes it very tough.,"Rock Tunnel, Victory Road","Rock Tunnel, Victory Road","Route 10, Rock Tunnel"
+67,Machoke,1.5,70.5,80,100,70,45,50,Fighting,-,"Its muscular body is so powerful, it must wear a power save belt to be able to regulate its motions.","The belt around its waist holds back its energy. Without it, this POKÈMON would be unstoppable.",Victory Road,Victory Road,"Route 5, Underground Path 5-6, Victory Road"
+68,Machamp,1.6,130,90,130,80,55,65,Fighting,-,"Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon.","One arm alone can move mountains. Using all four arms, this POKÈMON fires off awesome punches.",Evolve Marchamp / Machoke,Evolve Marchamp / Machoke,Evolve Marchamp / Machoke
+69,Bellsprout,0.7,4,50,75,35,40,70,Grass,Poison,A carnivorous POKÈMON that traps and eats bugs. It uses its root feet to soak up needed moisture.,Prefers hot and humid places. It ensnares tiny insects with its vines and devours them.,Trade / Migrate from other game,"Route 5, 6, 7, 12, 13, 14, 15, 24, 25","Route 12, 13, 14, 15, 24, 25"
+70,Weepinbell,1,6.4,65,90,50,55,85,Grass,Poison,It spits out POISONPOWDER to immobilize the enemy and then finishes it with a spray of ACID.,"When hungry, it swallows anything that moves. Its hapless prey is melted inside by strong acids.",Trade / Migrate from other game,"Route 12, 13, 14, 15","Route 12, 13, 14, 15, Cerulean Cave"
+71,Victreebel,1.7,15.5,80,105,65,70,100,Grass,Poison,"Said to live in huge colonies deep in jungles, although no one has ever returned from there.","Lures prey with the sweet aroma of honey. Swallowed whole, the prey is melted in a day, bones and all.",Trade / Migrate from other game,Evolve Bellsprout / Weepinbell,Evolve Bellsprout / Weepinbell
+72,Tentacool,0.9,45.5,40,40,35,70,100,Water,Poison,Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid.,It can sometimes be found all dry and shriveled up on a beach. Toss it back into the sea to revive it.,"Route 12, 13, 17, 18, 19, 20, 21, Pallet Town, Viridian City","Route 12, 13, 17, 18, 19, 20, 21, Pallet Town, Viridian City","Route 11, 13, 17, 18, 19, 20, 21, Pallet Town, Seafoam Islands, Vermilion City"
+73,Tentacruel,1.6,55,80,70,65,100,120,Water,Poison,"The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",Its 80 tentacles can stretch and contract freely. They wrap around prey and weaken it with poison.,Evolve Tentacool,Evolve Tentacool,"Route 19, 20, 21, Evolve Tentacool"
+74,Geodude,0.4,20,40,80,100,20,30,Rock,Ground,"Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.","Commonly found near mountain trails, etc. If you step on one by accident, it gets angry.","Mt. Moon, Rock Tunnel, Victory Road","Mt. Moon, Rock Tunnel, Victory Road","Mt. Moon, Rock Tunnel, Victory Road"
+75,Graveler,1,105,55,95,115,35,45,Rock,Ground,Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.,"Often seen rolling down mountain trails. Obstacles are just things to roll straight over, not avoid.",Victory Road,Victory Road,"Cerulean Cave, Victory Road"
+76,Golem,1.4,300,80,110,130,45,55,Rock,Ground,Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.,"Once it sheds its skin, its body turns tender and whitish. Its hide hardens when itís exposed to air.",Evolve Geodude / Graveller,Evolve Geodude / Graveller,Evolve Geodude / Graveller
+77,Ponyta,1,30,50,85,55,90,65,Fire,-,Its hooves are 10 times harder than diamonds. It can trample anything completely flat in little time.,Capable of jumping incredibly high. Its hooves and sturdy legs absorb the impact of a hard landing.,PokÈmon Mansion,PokÈmon Mansion,Route 17
+78,Rapidash,1.7,95,65,100,70,105,80,Fire,-,"Very competitive, this POKÈMON will chase anything that moves fast in the hopes of racing it.","Just loves to run. If it sees something faster than itself, it will give chase at top speed.",Evolve Ponyta,Evolve Ponyta,Evolve Ponyta
+79,Slowpoke,1.2,36,90,65,65,15,40,Water,Psychic,Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.,Incredibly slow and sluggish. It is quite content to loll about without worrying about the time.,"Route 10, Celadon City, Seafoam Islands, Safari Zone","Route 10, Celadon City, Seafoam Islands, Safari Zone","Route 12, 13, Seafoam Islands"
+80,Slowbro,1.6,78.5,95,75,110,30,80,Water,Psychic,The SHELLDER that is latched onto SLOWPOKEís tail is said to feed on the hostís left over scraps.,"Lives lazily by the sea. If the SHELLDER on its tail comes off, it becomes a SLOWPOKE again.","Route 23, Cerulean Cave, Seafoam Islands","Route 23, Cerulean Cave, Seafoam Islands","Route 12, 13, Seafoam Islands"
+81,Magnemite,0.3,6,25,35,70,45,95,Electric,-,Uses anti-gravity to stay suspended. Appears without warning and uses THUNDER WAVE and similar moves.,It is born with the ability to defy gravity. It floats in air on powerful electromagnetic waves.,Power Plant,Power Plant,"Route 10, Power Plant"
+82,Magneton,1,60,50,60,95,70,120,Electric,-,Formed by several MAGNEMITEs linked together. They frequently appear when sunspots flare up.,"Generates strange radio signals. It raises the temperature by 3.6F degrees within 3,300 feet.","Cerulean Cave, Power Plant","Cerulean Cave, Power Plant",Power Plant
+83,Farfetch'd,0.8,15,52,65,55,60,58,Normal,Flying,The sprig of green onions it holds is its weapon. It is used much like a metal sword.,"Lives where reedy plants grow. They are rarely seen, so itís thought their numbers are decreasing.",Vermilion City,Vermilion City,"Route 12, 13"
+84,Doduo,1.4,39.2,35,85,45,75,35,Normal,Flying,A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.,"Its short wings make flying difficult. Instead, this POKÈMON runs at high speed on developed legs.","Route 16, 17, 18","Route 16, 17, 18","Route 16, 17, 18, Safari Zone"
+85,Dodrio,1.8,85.2,60,110,70,100,60,Normal,Flying,"Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",One of DODUOís 2 heads splits to form a unique species. It runs close to 40 MPH in prairies.,Cerulean Cave,Cerulean Cave,Route 17
+86,Seel,1.1,90,65,45,55,45,70,Water,-,The protruding horn on its head is very hard. It is used for bashing through thick ice.,Loves freezing cold conditions. Relishes swimming in a frigid climate of around 14F degrees.,"Cinnabar Island, Seafoam Islands","Cinnabar Island, Seafoam Islands",Seafoam Islands
+87,Dewgong,1.7,120,90,70,80,70,95,Water,Ice,Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.,"Its entire body is a snowy-white. Unharmed by even intense cold, it swims powerfully in icy waters.",Seafoam Islands,Seafoam Islands,"Cinnabar Island, Seafoam Islands"
+88,Grimer,0.9,30,80,80,50,25,40,Poison,-,Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.,Made of hardened sludge. It smells too putrid to touch. Even weeds wonít grow in its path.,PokÈmon Mansion,PokÈmon Mansion,"Power Plant, PokÈmon Mansion"
+89,Muk,1.2,30,105,105,75,50,65,Poison,-,"Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.","Smells so awful, it can cause fainting. Through degeneration, it lost its sense of smell.",PokÈmon Mansion,PokÈmon Mansion,"Cinnabar Island, Power Plant, PokÈmon Mansion"
+90,Shellder,0.3,4,30,65,100,40,45,Water,-,Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.,"The shell can withstand any attack. However, when it is open, the tender body is exposed.","Route 6, 11, 19, 20, 21, Seafoam Islands, Vermilion City","Route 6, 11, 19, 20, 21, Seafoam Islands, Vermilion City","Route 17, 18, Vermilion City"
+91,Cloyster,1.5,132.5,50,95,180,70,85,Water,Ice,"When attacked, it launches its horns in quick volleys. Its innards have never been seen.","For protection, it uses its harder-than-diamonds shell. It also shoots spikes from the shell.",Evolve Shellder,Evolve Shellder,Evolve Shellder
+92,Gastly,1.3,0.1,30,35,30,80,100,Ghost,Poison,"Almost invisible, this gaseous POKÈMON cloaks the target and puts it to sleep without notice.","Said to appear in decrepit, deserted buildings. It has no real shape as it appears to be made of a gas.",PokÈmon Tower,PokÈmon Tower,PokÈmon Tower
+93,Haunter,1.6,0.1,45,50,45,95,115,Ghost,Poison,"Because of its ability to slip through block walls, it is said to be from another dimension.","By licking, it saps the victimís life. It causes shaking that wonít stop until the victimís demise.",PokÈmon Tower,PokÈmon Tower,PokÈmon Tower
+94,Gengar,1.5,40.5,60,65,60,110,130,Ghost,Poison,"Under a full moon, this POKÈMON likes to mimic the shadows of people and laugh at their fright.",A GENGAR is close by if you feel a sudden chill. It may be trying to lay a curse on you.,Evolve Gastly / Gengar,Evolve Gastly / Gengar,Evolve Gastly / Gengar
+95,Onix,8.8,210,35,45,160,70,30,Rock,Ground,"As it grows, the stone portions of its body harden to become similar to a diamond, but colored black.",Burrows at high speed in search of food. The tunnels it leaves are used as homes by DIGLETTs.,"Rock Tunnel, Victory Road","Rock Tunnel, Victory Road","Rock Tunnel, Victory Road"
+96,Drowzee,1,32.4,60,48,45,42,90,Psychic,-,Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams.,"If you sleep by it all the time, it will sometimes show you dreams it has eaten in the past.",Route 11,Route 11,Route 11
+97,Hypno,1.6,75.6,85,73,70,67,115,Psychic,-,"When it locks eyes with an enemy, it will use a mix of PSI moves such as HYPNOSIS and CONFUSION.",Avoid eye contact if you come across one. It will try to put you to sleep by using its pendulum.,Cerulean Cave,Cerulean Cave,Evolve Drowzee
+98,Krabby,0.4,6.5,30,105,90,50,25,Water,-,"Its pincers are not only powerful weapons, they are used for balance when walking sideways.","Its pincers are superb weapons. They sometimes break off during battle, but they grow back fast.","Route 6, 11, 12, 13, 17, 18, 24, 25, Fuchsia City, Vermilion City, Safari Zone","Route 6, 11, 12, 13, 17, 18, 24, 25, Fuchsia City, Seafoam Islands, Vermilion City, Safari Zone","Route 10, 25, Seafoam Islands"
+99,Kingler,1.3,60,55,130,115,75,50,Water,-,"The large pincer has 10000 hp of crushing power. However, its huge size makes it unwieldy to use.","One claw grew massively and as hard as steel. It has 10,000-HP strength. However, it is too heavy.","Route 23, Cerulean Cave","Route 23, Cerulean Cave, Seafoam Islands","Route 10, 25, Seafoam Islands"
+100,Voltorb,0.5,10.4,40,30,50,100,55,Electric,-,"Usually found in power plants. Easily mistaken for a POKÈ BALL, they have zapped many people.",It is said to camouflage itself as a POKÈ BALL. It will self-destruct with very little stimulus.,"Route 10, Power Plant","Route 10, Power Plant",Power Plant
+101,Electrode,1.2,66.6,60,50,70,140,80,Electric,-,It stores electric energy under very high pressure. It often explodes with little or no provocation.,Stores electrical energy inside its body. Even the slightest shock could trigger a huge explosion.,"Cerulean Cave, Cinnabar Island","Cerulean Cave, Cinnabar Island",Evolve Voltorb
+102,Exeggcute,0.4,2.5,60,40,80,40,60,Grass,Psychic,"Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",The heads attract each other and spin around. There must be 6 heads for it to maintain balance.,Safari Zone,Safari Zone,Safari Zone
+103,Exeggutor,2,120,95,95,85,55,125,Grass,Psychic,"Legend has it that on rare occasions, one of its heads will drop off and continue on as an EXEGGCUTE.",Its cries are very noisy. This is because each of the 3 heads thinks about whatever it likes.,Evolve Exeggcute,Evolve Exeggcute,Evolve Exeggcute
+104,Cubone,0.4,6.5,50,50,95,35,40,Ground,-,"Because it never removes its skull helmet, no one has ever seen this POKÈMONís real face.",Wears the skull of its deceased mother. Its cries echo inside the skull and come out as a sad melody.,PokÈmon Tower,PokÈmon Tower,"PokÈmon Tower, Safari Zone"
+105,Marowak,1,45,60,80,110,45,50,Ground,-,The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.,"Small and weak, this POKÈMON is adept with its bone club. It has grown more vicious over the ages.","Cerulean Cave, Victory Road","Cerulean Cave, Victory Road",Safari Zone
+106,Hitmonlee,1.5,49.8,50,120,53,87,35,Fighting,-,"When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides.","When kicking, the sole of its foot turns as hard as a diamond on impact and destroys its enemy.",Saffron City,Saffron City,Saffron City
+107,Hitmonchan,1.4,50.2,50,105,79,76,35,Fighting,-,"While apparently doing nothing, it fires punches in lightning fast volleys that are impossible to see.",Punches in corkscrew fashion. It can punch its way through a concrete wall in the same way as a drill.,Saffron City,Saffron City,Saffron City
+108,Lickitung,1.2,65.5,90,55,75,30,60,Normal,-,Its tongue can be extended like a chameleonís. It leaves a tingling sensation when it licks enemies.,Its tongue spans almost 7 feet and moves more freely than its forelegs. Its licks can cause paralysis.,Route 18,Route 18,Cerulean Cave
+109,Koffing,0.6,1,40,65,95,35,60,Poison,-,"Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.","In hot places, its internal gases could expand and explode without any warning. Be very careful!",PokÈmon Mansion,PokÈmon Mansion,Trade / Migrate from other game
+110,Weezing,1.2,9.5,65,90,120,60,85,Poison,-,"Where two kinds of poison gases meet, 2 KOFFINGs can fuse into a WEEZING over many years.","It lives and grows by absorbing dust, germs and poison gases that are contained in toxic waste and garbage.",PokÈmon Mansion,PokÈmon Mansion,Trade / Migrate from other game
+111,Rhyhorn,1,115,80,85,95,25,30,Ground,Rock,Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying.,"A POKÈMON with a one-track mind. Once it charges, it wonít stop running until it falls asleep.",Safari Zone,Safari Zone,"Cerulean Cave, Safari Zone"
+112,Rhydon,1.9,120,105,130,120,40,45,Ground,Rock,"Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees.",Walks on its hind legs. Shows signs of intelligence. Its armor-like hide even repels molten lava.,Cerulean Cave,Cerulean Cave,"Cerulean Cave, Cinnabar Island"
+113,Chansey,1.1,34.6,250,5,5,50,105,Normal,-,A rare and elusive POKÈMON that is said to bring happiness to those who manage to get it.,A gentle and kindhearted POKÈMON that shares its nutritious eggs if it sees an injured POKÈMON.,"Cerulean Cave, Safari Zone","Cerulean Cave, Safari Zone","Cerulean Cave, Safari Zone"
+114,Tangela,1,35,65,55,115,60,100,Grass,-,The whole body is swathed with wide vines that are similar to seaweed. Its vines shake as it walks.,"Its identity is obscured by masses of thick, blue vines. The vines are said to never stop growing.","Route 21, Cinnabar Island","Route 21, Cinnabar Island",Safari Zone
+115,Kangaskhan,2.2,80,105,95,80,90,40,Normal,-,The infant rarely ventures out of its motherís protective pouch until it is 3 years old.,Raises its young in its belly pouch. Wonít run from any fight to keep its young protected.,Safari Zone,Safari Zone,Safari Zone
+116,Horsea,0.4,8,30,40,70,60,70,Water,-,Known to shoot down flying bugs with precision blasts of ink from the surface of the water.,"If it senses any danger, it will vigorously spray water or a special type of ink from its mouth.","Route 19, 20, 21, Seafoam Islands","Route 19, 20, 21, Seafoam Islands","Route 10, 11, 12, 13, Vermilion City"
+117,Seadra,1.2,25,55,65,95,85,95,Water,-,Capable of swimming backwards by rapidly flapping its wing-like pectoral fins and stout tail.,Touching the back fin causes numbness. It hooks its tail to coral to stay in place while sleeping.,"Route 23, Cerulean Cave, Seafoam Islands","Route 23, Cerulean Cave","Route 12, 13"
+118,Goldeen,0.6,15,45,67,60,63,50,Water,-,"Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen.","When it is time for them to lay eggs, they can be seen swimming up rivers and falls in large groups","Route 6, 10, 11, 12, 13, 17, 18, 19, 20, 21, 22, 23, 24, 25, Celadon City, Cerulean Cave, Fuchsia City, Pallet Town, Seafoam Islands, Vermilion City, Viridian City, Safari Zone","Route 6, 10, 11, 12, 13, 17, 18, 19, 20, 21, 22, 23, 24, 25, Celadon City, Cerulean Cave, Fuchsia City, Pallet Town, Seafoam Islands, Vermilion City, Viridian City, Safari Zone","Route 6, 10, 11, 12, 13, 17, 18, 19, 20, 21, 22, 23, 24, 25, Celadon City, Cerulean Cave, Fuchsia City, Pallet Town, Seafoam Islands, Vermilion City, Viridian City, Safari Zone"
+119,Seaking,1.3,39,80,92,65,68,80,Water,-,"In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",It is the maleís job to make a nest by carving out boulders in a stream using the horn on its head.,"Route 23, Cerulean Cave, Fuchsia City","Route 23, Cerulean Cave, Fuchsia City","Route 24, Cerulean Cave"
+120,Staryu,0.8,34.5,30,45,55,85,70,Water,-,An enigmatic POKÈMON that can effortlessly regenerate any appendage it loses in battle.,"As long as the center section is unharmed, it can grow back fully even if it is chopped to bits.","Route 19, 20, 21, Seafoam Islands","Route 19, 20, 21, Seafoam Islands","Route 19, 20, 21, Pallet Town, Seafoam Islands, Vermilion City"
+121,Starmie,1.1,80,60,75,85,115,100,Water,Psychic,Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.,The center section is named the core. People think it is communicating when it glows in 7 colors.,Evolve Staryu,Evolve Staryu,Evolve Staryu
+122,Mr. Mime,1.3,54.5,40,45,65,90,100,Psychic,-,"If interrupted while it is miming, it will slap around the offender with its broad hands.",Always practices its pantomime act. It makes enemies believe something exists that really doesnít.,Route 2,Route 2,Route 2
+123,Scyther,1.5,56,70,110,80,105,55,Bug,Flying,"With ninja-like agility and speed, it can create the illusion that there is more than one.",Leaps out of tall grass and slices prey with its scythes. The movement looks like that of a ninja.,"Celadon City, Safari Zone",Trade / Migrate from other game,"Celadon City, Safari Zone"
+124,Jynx,1.4,40.6,65,50,35,95,95,Ice,Psychic,It seductively wiggles its hips as it walks. It can cause people to dance in unison with it.,"Appears to move to a rhythm of its own, as if it were dancing. It wiggles its hips as it walks.",Cerulean City,Cerulean City,Trade / Migrate from other game
+125,Electabuzz,1.1,30,65,83,57,105,85,Electric,-,"Normally found near power plants, they can wander away and cause major blackouts in cities.","If a major power outage occurs, it is certain that this POKÈMON has eaten electricity at a power plant.",Power Plant,Trade / Migrate from other game,Trade / Migrate from other game
+126,Magmar,1.3,44.5,65,95,57,93,85,Fire,-,Its body always burns with an orange glow that enables it to hide perfectly among flames.,"Born in an active volcano. Its body is always cloaked in flames, so it looks like a big ball of fire.",Trade / Migrate from other game,PokÈmon Mansion,Trade / Migrate from other game
+127,Pinsir,1.5,55,65,125,100,85,55,Bug,-,"If it fails to crush the victim in its pincers, it will swing it around and toss it hard.","Grips its prey in its pincers and squeezes hard! It canít move if itís cold, so it lives in warm places.",Trade/migrate from another game,"Celadon City, Safari Zone","Celadon City, Safari Zone"
+128,Tauros,1.4,88.4,75,100,95,110,70,Normal,-,"When it targets an enemy, it charges furiously while whipping its body with its long tails.","A rowdy POKÈMON with a lot of stamina. Once running, it wonít stop until it hits something.",Safari Zone,Safari Zone,Safari Zone
+129,Magikarp,0.9,10,20,10,55,80,20,Water,-,"In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.","Famous for being very unreliable. It can be found swimming in seas, lakes, rivers and shallow puddles.","Route 4, 6, 10, 11, 12, 13, 17, 18, 19, 20, 21, 22, 23, 24, 25, Celadon City, Cerulean Cave, Fuchsia City, Pallet Town, Seafoam Islands, Vermilion City, Viridian City, Safari Zone","Route 4, 6, 10, 11, 12, 13, 17, 18, 19, 20, 21, 22, 23, 24, 25, Celadon City, Cerulean Cave, Fuchsia City, Pallet Town, Seafoam Islands, Vermilion City, Viridian City, Safari Zone","Route 4, 6, 10, 11, 12, 13, 17, 18, 19, 20, 21, 22, 23, 24, 25, Celadon City, Cerulean Cave, Fuchsia City, Pallet Town, Seafoam Islands, Vermilion City, Viridian City, Safari Zone"
+130,Gyarados,6.5,235,95,125,79,81,100,Water,Flying,"Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",Brutally vicious and enormously destructive. Known for totally destroying cities in ancient times.,Evolve Magikarp,Evolve Magikarp,Fushcia City
+131,Lapras,2.5,220,130,85,80,60,95,Water,Ice,A POKÈMON that has been overhunted almost to extinction. It can ferry people across the water.,A gentle soul that can read the minds of people. It can ferry people across the sea on its back.,Silph Co.,Silph Co.,Silph Co.
+132,Ditto,0.3,4,48,48,48,48,48,Normal,-,Capable of copying an enemyís genetic code to instantly transform itself into a duplicate of the enemy.,"When it spots an enemy, its body transfigures into an almost perfect copy of its opponent.","Route 13, 14, 15, 23, Cerulean Cave","Route 13, 14, 15, 23, Cerulean Cave","Cerulean Cave, PokÈmon Mansion"
+133,Eevee,0.3,6.5,55,55,50,55,65,Normal,-,Its genetic code is irregular. It may mutate if it is exposed to radiation from element STONEs.,"Its genetic code is unstable, so it could evolve in a variety of ways. There are only a few alive.",Celadon City,Celadon City,Celadon City
+134,Vaporeon,1,29,130,65,60,65,110,Water,-,Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaidís.,Its cell structure is similar to water molecules. It will melt away and become invisible in water.,Evolve Eevee,Evolve Eevee,Evolve Eevee
+135,Jolteon,0.8,24.5,65,65,60,130,110,Electric,-,It accumulates negative ions in the atmosphere to blast out 10000-volt lightning bolts.,"A sensitive POKÈMON that easily becomes sad or angry. Every time its mood changes, it charges power.",Evolve Eevee,Evolve Eevee,Evolve Eevee
+136,Flareon,0.9,25,65,130,60,65,110,Fire,-,"When storing thermal energy in its body, its temperature could soar to over 1600 degrees.","It has a flame chamber inside its body. It inhales, then blows out fire that is over 3,000F degrees.",Evolve Eevee,Evolve Eevee,Evolve Eevee
+137,Porygon,0.8,36.5,65,60,70,40,75,Normal,-,A POKÈMON that consists entirely of programming code. Capable of moving freely in cyberspace.,"The only POKÈMON people anticipate can fly into space. None has managed the feat yet, however.",Celadon City,Celadon City,Celadon City
+138,Omanyte,0.4,7.5,35,40,100,35,90,Rock,Water,"Although long extinct, in rare cases, it can be genetically resurrected from fossils.",An ancient POKÈMON that was recovered from a fossil. It swims by cleverly twisting its 10 tentacles about.,Cinnabar Island,Cinnabar Island,Cinnabar Island
+139,Omastar,1,35,70,60,125,55,115,Rock,Water,A prehistoric POKÈMON that died out when its heavy shell made it impossible to catch prey.,"Sharp beaks ring its mouth. Its shell was too big for it to move freely, so it became extinct.",Evolve Omanyte,Evolve Omanyte,Evolve Omanyte
+140,Kabuto,0.5,11.5,30,80,90,55,45,Rock,Water,A POKÈMON that was resurrected from a fossil found in what was once the ocean floor eons ago.,A POKÈMON that was recovered from a fossil. It uses the eyes on its back while hiding on the sea floor.,Cinnabar Island,Cinnabar Island,Cinnabar Island
+141,Kabutops,1.3,40.5,60,115,105,80,70,Rock,Water,Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids.,A slim and fast swimmer. It slices its prey with its sharp sickles and drinks the body fluids.,Evolve Kabutops,Evolve Kabutops,Evolve Kabutops
+142,Aerodactyl,1.8,59,80,105,65,130,60,Rock,Flying,"A ferocious, prehistoric POKÈMON that goes for the enemyís throat with its serrated saw-like fangs.",A savage POKÈMON that died out in ancient times. It was resurrected using DNA taken from amber.,Cinnabar Island,Cinnabar Island,Cinnabar Island
+143,Snorlax,2.1,460,160,110,65,30,65,Normal,-,"Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.","Will eat anything, even if the food happens to be a little moldy. It never gets an upset stomach.","Route 12, 16","Route 12, 16","Route 12, 16"
+144,Articuno,1.7,55.4,90,85,100,85,125,Ice,Flying,A legendary bird POKÈMON that is said to appear to doomed people who are lost in icy mountains.,A legendary bird POKÈMON. It freezes water that is contained in winter air and makes it snow.,Seafoam Islands,Seafoam Islands,Seafoam Islands
+145,Zapdos,1.6,52.6,90,90,85,100,125,Electric,Flying,A legendary bird POKÈMON that is said to appear from clouds while dropping enormous lightning bolts.,This legendary bird POKÈMON is said to appear when the sky turns dark and lightning showers down.,Power Plant,Power Plant,Power Plant
+146,Moltres,2,60,90,100,90,90,125,Fire,Flying,Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.,"A legendary bird POKÈMON. As it flaps its flaming wings, even the night sky will turn red.",Victory Road,Victory Road,Victory Road
+147,Dratini,1.8,3.3,41,64,45,50,50,Dragon,-,Long considered a mythical POKÈMON until recently when a small colony was found living underwater.,The existence of this mythical POKÈMON was only recently confirmed by a fisherman who caught one.,"Celadon City, Safari Zone","Celadon City, Safari Zone",Safari Zone
+148,Dragonair,4,16.5,61,84,65,70,70,Dragon,-,A mystical POKÈMON that exudes a gentle aura. Has the ability to change climate conditions.,"According to a witness, its body was surrounded by a strange aura that gave it a mystical look.",Evolve Dratini,Evolve Dratini,Safari Zone
+149,Dragonite,2.2,210,91,134,95,80,100,Dragon,Flying,An extremely rarely seen marine POKÈMON. Its intelligence is said to match that of humans.,"It is said that this POKÈMON lives somewhere in the sea and that it flies. However, it is only a rumor.",Evolve Dratini / Dragonair,Evolve Dratini / Dragonair,Evolve Dratini / Dragonair
+150,Mewtwo,2,122,106,110,90,130,154,Psychic,-,It was created by a scientist after years of horrific gene splicing and DNA engineering experiments.,"Its DNA is almost the same as MEWís. However, its size and disposition are vastly different.",Cerulean Cave,Cerulean Cave,Cerulean Cave
+151,Mew,0.4,4,100,100,100,100,100,Psychic,-,So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.,"When viewed through a microscope, this POKÈMONís short, fine, delicate hair can be seen.",Trade / Migrate from other game / Glitch,Trade / Migrate from other game / Glitch,Trade / Migrate from other game / Glitch

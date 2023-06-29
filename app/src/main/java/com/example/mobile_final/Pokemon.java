@@ -15,11 +15,12 @@ import java.io.InputStream;
 public class Pokemon implements Parcelable {
     int id;
     double height, weight;
-    String name;
+    String name, about;
+    String[] location = new String[3];
     Stat stat;
     Type[] types = new Type[2];
 
-    public Pokemon(int id, String name, double height, double weight, Stat stat, Type type1, Type type2){
+    public Pokemon(int id, String name, double height, double weight, Stat stat, Type type1, Type type2, String about, String[] location){
         this.id = id;
         this.name = name;
         this.height = height;
@@ -27,6 +28,8 @@ public class Pokemon implements Parcelable {
         this.stat = stat;
         this.types[0] = type1;
         this.types[1] = type2;
+        this.about = about;
+        this.location = location;
     }
 
     //region Parcelable methods
@@ -37,6 +40,8 @@ public class Pokemon implements Parcelable {
         weight = in.readDouble();
         stat = (Stat) in.readParcelable(Stat.class.getClassLoader());
         types = in.createTypedArray(Type.CREATOR);
+        about = in.readString();
+        in.readStringArray(location);
     }
 
     @Override
@@ -52,6 +57,8 @@ public class Pokemon implements Parcelable {
         dest.writeDouble(weight);
         dest.writeParcelable(stat, flags);
         dest.writeTypedArray(types, flags);
+        dest.writeString(about);
+        dest.writeStringArray(location);
     }
 
     public static final Creator<Pokemon> CREATOR = new Creator<Pokemon>() {
@@ -89,6 +96,20 @@ public class Pokemon implements Parcelable {
 
     public Type[] getTypes() {
         return types;
+    }
+
+    public String getAbout() {
+        return about;
+    }
+
+    public String getLocationRed(){
+        return location[0];
+    }
+    public String getLocationBlue(){
+        return location[1];
+    }
+    public String getLocationYellow(){
+        return location[2];
     }
 
     public Drawable getSprite(Context context){
